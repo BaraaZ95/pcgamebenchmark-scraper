@@ -4,7 +4,7 @@ import scrapy
 class GamesSpider(scrapy.Spider):
     name = 'games'
     #allowed_domains = ['www.pcgamebenchmark.com']
-    start_urls = [f'https://www.pcgamebenchmark.com/best-pc-games/page-{i}?tags=&sort=0' for i in range(1, 6933)]
+    start_urls = [f'https://www.pcgamebenchmark.com/best-pc-games/page-{i}?tags=&sort=0' for i in range(1, 6933)] 
 
     def parse(self, response):
         urls =  response.css('div[class="games-list"]>div>div>a::attr(href)').getall()
