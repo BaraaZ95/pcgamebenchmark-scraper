@@ -3,6 +3,7 @@ pcgamebenchmark.com scraper using Python scrapy
 
 To run, just navigate to the folder using the command prompt and run 'scrapy crawl games'. To save output as csv or json, run 'scrapy crawl games -o games.csv'.
 
+The dataset scrapes the following information:
 **Game**: The name of the game
 **Memory**: The minimum amount of memory (RAM) required to run the game
 **Graphics Card**: The minimum required graphics card to run the game
