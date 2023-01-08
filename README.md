@@ -4,12 +4,12 @@ pcgamebenchmark.com scraper using Python scrapy
 To run, just navigate to the folder using the command prompt and run 'scrapy crawl games'. To save output as csv or json, run 'scrapy crawl games -o games.csv'.
 
 The dataset scrapes the following information:
-**Game**: The name of the game
-**Memory**: The minimum amount of memory (RAM) required to run the game
-**Graphics Card**: The minimum required graphics card to run the game
-**CPU**: The minimum required central processing unit (CPU) to run the game
-**File Size**: The size of the game's installation file
-**OS**: The minimum required operating system to run the game
+- **Game**: The name of the game
+- **Memory**: The minimum amount of memory (RAM) required to run the game
+- **Graphics Card**: The minimum required graphics card to run the game
+- **CPU**: The minimum required central processing unit (CPU) to run the game
+- **File Size**: The size of the game's installation file
+- **OS**: The minimum required operating system to run the game
 
 This dataset can be used to help determine whether a PC meets the requirements to run a particular game. It is important to note that meeting the minimum requirements does not guarantee optimal performance and that higher specifications may be needed for the best gaming experience.
 
